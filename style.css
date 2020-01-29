@@ -1,0 +1,118 @@
+body {
+  background-color: #3e206d;
+  color: #d89cf6;
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+img {
+  width: 20%;
+}
+
+h1 {
+  color: #3e206d;
+  font-family: 'Comfortaa', cursive;
+  line-height: 1.8;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+  line-height: 0;
+  font-size: 32px;
+  color: #916dd5;
+  line-height: 1.8;
+}
+
+p {
+  color: #916dd5;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+}
+
+a {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Comfortaa', cursive;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f7c616;
+}
+
+ul {
+  padding: 0px;
+}
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .btn-blue {
+    padding: 15px 30px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .btn-blue {
+    padding: 15px 30px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+  .btn-blue {
+    padding: 5px 10px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+}
+
+.card {
+  background-color: #f7c616;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px;
+}
+
+.btn-blue {
+  padding: 15px 30px;
+  margin-bottom: 10px;
+  background-color: #3e206d;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(10,10,10);
+}
+
+.inline-list {
+  list-style: none;
+}
+
+.inline-list li {
+  display: inline-block;
+}
+
+.btn-follow {
+  font-size: 64px;
+  color: #3e206d;
+}
+
+.btn-follow:hover {
+  color: rgb(10,10,10);
+}
